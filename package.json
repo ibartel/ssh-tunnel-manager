@@ -1,0 +1,17 @@
+{
+  "name": "tunnel-manager",
+  "version": "0.0.0",
+  "description": "",
+  "main": "tunnel-manager.js",
+  "dependencies": {
+    "bluebird": "^2.2.2",
+    "ssh2": "^0.3.4",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
