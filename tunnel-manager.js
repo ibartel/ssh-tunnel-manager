@@ -1,5 +1,5 @@
 var Tunnel = require('./lib/Tunnel'),
-    Config = require('./lib/Config'),
+    ConfigManager = require('./lib/ConfigManager'),
     Promise = require('bluebird');
 
 path = require('path-extra');
@@ -11,7 +11,9 @@ var ssh_config = {
     password: 'test'
 };
 
-var config = new Config();
+var configManager = new ConfigManager();
+
+console.log(configManager.config.getSshProfiles());
 
 var tunnelManager = new Tunnel({verbose: true});
 
