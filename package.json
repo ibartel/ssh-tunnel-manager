@@ -1,18 +1,35 @@
 {
     "name": "tunnel-manager",
-    "version": "0.0.0",
-    "description": "",
-    "main": "tunnel-manager.js",
+    "version": "1.0.0",
+    "description": "SSH Tunnel manager - helps you to organize your tunnels in groups and connection profiles",
+    "main": "lib/index.js",
+    "author": {
+        "name": "Ingo Bartel"
+    },
+    "engines": {
+        "node": ">= 0.8.0"
+    },
     "dependencies": {
-        "bluebird": "^2.2.2",
+        "cli-color": "^0.3.2",
+        "coa": "^0.4.1",
+        "js-yaml": "^3.1.0",
+        "lodash": "^2.4.1",
         "path-extra": "^0.2.1",
+        "q": "^1.0.1",
         "ssh2": "^0.3.4",
-        "underscore": "^1.6.0"
+        "update-notifier": "^0.2.0"
+    },
+    "bin": {
+        "tunnel-manager": "bin/tunnel-manager"
     },
     "devDependencies": {},
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "",
-    "license": "ISC"
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/arikon/bower-npm-install/raw/master/LICENSE"
+        }
+    ]
 }
