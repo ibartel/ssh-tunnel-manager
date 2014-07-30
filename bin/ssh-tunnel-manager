@@ -7,4 +7,4 @@
 //    notifier.notify();
 //}
 
-require('../lib/CommandlineParser').run();
+require('../lib/cli').run();
