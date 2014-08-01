@@ -2,10 +2,14 @@
   "name": "tunnel-manager",
   "version": "1.0.0",
   "description": "SSH Tunnel manager - helps you to organize your tunnels in groups and connection profiles",
-  "main": "lib/index.js",
   "author": {
     "name": "Ingo Bartel"
   },
+  "keywords": [
+      "ssh",
+      "tunnel"
+  ],
+  "preferGlobal": true,
   "engines": {
     "node": ">= 0.8.0"
   },
@@ -19,13 +23,15 @@
     "update-notifier": "^0.2.0",
     "read": "~1.0.5"
   },
+  "main": "lib/index.js",
   "bin": {
-    "tunnel-manager": "bin/tunnel-manager"
+    "ssh-tunnel-manager": "bin/ssh-tunnel-manager"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "readmeFilename": "README.md",
   "licenses": [
     {
       "type": "MIT",
