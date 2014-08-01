@@ -15,11 +15,12 @@
     "cli-color": "^0.3.2",
     "coa": "^0.4.1",
     "js-yaml": "^3.1.0",
+    "mkdirp": "^0.5.0",
     "path-extra": "^0.2.1",
     "q": "^1.0.1",
+    "read": "~1.0.5",
     "ssh2": "^0.3.4",
-    "update-notifier": "^0.2.0",
-    "read": "~1.0.5"
+    "update-notifier": "^0.2.0"
   },
   "main": "lib/index.js",
   "bin": {
