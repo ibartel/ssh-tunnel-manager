@@ -2,12 +2,10 @@
   "name": "ssh-tunnel-manager",
   "version": "0.9.0",
   "description": "SSH Tunnel manager - helps you to organize your tunnels in groups and connection profiles",
-  "author": {
-    "name": "Ingo Bartel"
-  },
+  "author": "Ingo Bartel",
   "keywords": [
-      "ssh",
-      "tunnel"
+    "ssh",
+    "tunnel"
   ],
   "preferGlobal": true,
   "engines": {
@@ -31,11 +29,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "readmeFilename": "README.md",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.githubusercontent.com/ibartel/ssh-tunnel-manager/master/LICENSE"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibartel/ssh-tunnel-manager.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ibartel/ssh-tunnel-manager/issues"
+  },
+  "homepage": "https://github.com/ibartel/ssh-tunnel-manager"
 }
