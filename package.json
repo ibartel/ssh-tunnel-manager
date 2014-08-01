@@ -1,6 +1,6 @@
 {
   "name": "ssh-tunnel-manager",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "SSH Tunnel manager - helps you to organize your tunnels in groups and connection profiles",
   "author": "Ingo Bartel",
   "keywords": [
