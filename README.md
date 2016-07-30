@@ -107,11 +107,13 @@ To get help adding a connection profile use
 
 Basically the following syntax
 
-    $ ssh-tunnel-manager profile add <NAME> <USER@HOST> [-i <FILE TO PRIVATE KEY>] [-p <PASSWORD>] [--password-interactive] [--default]
+    $ ssh-tunnel-manager profile add <NAME> <USER@HOST> [-port <HOST PORT>] [-i <FILE TO PRIVATE KEY>] [-p <PASSWORD>] [--password-interactive] [--default]
 
 **NAME** is the name you use on command line to specify the connection profile you want to use. You can create as many as you want, but use only one at a time
 
 **USER@HOST** specifies the _username_ you want to use to connect to the _host_ to tunnel thru.
+
+**HOST PORT** is the host port you connect to the _host_ to tunnel thru. defaults to port 22.
 
 **FILE TO PRIVATE KEY** is a SSH identity file you want to use. ie. ~/.ssh/id_dsa (**NOTE:** its _not_ the public key!)
 
@@ -178,4 +180,3 @@ ssh-tunnel-manager tunnel add -g services statservice 8086:statservice.qa.{ENV}.
 ssh-tunnel-manager -t db,services -v env:myteam
 
 ```
-
